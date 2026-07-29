@@ -3,38 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>محمد محمود الريح - الرئيسية</title>
+    <title>محمد محمود الريح - الموقع الشخصي</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div class="bg-shape-1"></div>
+
+    <!-- الترويسة مطابقة لشريط Dantal -->
     <header>
         <div class="logo">
-            <span>🦷</span> محمد الريح
+            <!-- أيقونة سن بسيطة -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="var(--primary-blue)"><path d="M12 2C8.5 2 7 4 7 7C7 9.5 8.5 11 10 12.5C10 13.5 9 16 9 18C9 20 10.5 22 12 22C13.5 22 15 20 15 18C15 16 14 13.5 14 12.5C15.5 11 17 9.5 17 7C17 4 15.5 2 12 2Z"/></svg>
+            محمد <span>الريح</span>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="about.html">عني</a></li>
-                <li><a href="portfolio.html">مشاريعي ومهاراتي</a></li>
+                <li><a href="index.html" class="active">الرئيسية</a></li>
+                <li><a href="about.html">المسيرة الأكاديمية</a></li>
+                <li><a href="skills.html">المهارات التقنية</a></li>
+                <li><a href="team.html">مشاريعي</a></li>
                 <li><a href="contact.html">تواصل معي</a></li>
             </ul>
         </nav>
-        <a href="contact.html" class="btn-primary">حجز موعد / تواصل</a>
+        <a href="contact.html" class="btn">حجز موعد</a>
     </header>
 
+    <!-- قسم الواجهة (Hero) المطابق للتصميم -->
     <section class="hero">
-        <div class="hero-text">
-            <h1>عناية فائقة وتطوير مستمر في <span>طب الأسنان</span></h1>
-            <p>أهلاً بكم، أنا محمد محمود الريح، طالب طب أسنان (الدفعة 7). أجمع بين الشغف السريري في طب الأسنان والاهتمام العميق بتسخير التقنيات الحديثة والبرمجة لتطوير الرعاية الصحية.</p>
-            <a href="portfolio.html" class="btn-primary">اكتشف مسيرتي</a>
+        <div class="hero-content">
+            <h1>رعاية فائقة و <br><span class="text-blue">طب أسنان</span><br> متقدم</h1>
+            <p>أهلاً بك. أنا محمد محمود الريح، طالب طب أسنان (الدفعة 7). أؤمن بأن مستقبل الرعاية الصحية يكمن في دمج المعرفة الطبية الدقيقة مع التقنيات الحديثة، من تطوير واجهات الويب التفاعلية إلى أتمتة العيادات باستخدام الذكاء الاصطناعي.</p>
+            <a href="contact.html" class="btn">اكتشف المزيد</a>
+            
+            <div class="trust-section">
+                <div class="avatars">
+                    <!-- صور رمزية صغيرة مطابقة لجزئية Trusted by في التصميم -->
+                    <img src="https://i.pravatar.cc/100?img=1" alt="user">
+                    <img src="https://i.pravatar.cc/100?img=2" alt="user">
+                    <img src="https://i.pravatar.cc/100?img=3" alt="user">
+                    <img src="https://i.pravatar.cc/100?img=4" alt="user">
+                </div>
+                <div class="trust-text">
+                    موثوق من قبل زملائي <br>في الدفعة والمجتمع الطبي
+                </div>
+            </div>
         </div>
         
-        <div class="hero-image">
-            <div class="image-blob">
-                <!-- يمكنك استبدال الرابط أدناه بصورتك الشخصية -->
+        <div class="hero-image-wrapper">
+            <div class="floating-shape-1"></div>
+            <!-- الشكل الأزرق ذو الزاوية الحادة والانحناءات المطابق للصورة -->
+            <div class="theme-shape">
+                <!-- استبدل الرابط أدناه بصورتك الشخصية بخلفية شفافة (PNG) -->
                 <img src="https://cdn-icons-png.flaticon.com/512/3421/3421110.png" alt="طبيب أسنان">
             </div>
+        </div>
+    </section>
+
+    <!-- شريط التقنيات والشركاء (بديل لشعارات الشركات في التصميم) -->
+    <section class="partners">
+        <span>React.js</span>
+        <span>HTML & CSS</span>
+        <span>Botpress & n8n</span>
+        <span>Dental Zone</span>
+        <span>JavaScript</span>
+    </section>
+
+    <!-- القسم الثاني (مطابق لقسم First Impressions في التصميم) -->
+    <section class="about-section">
+        <div class="about-images">
+            <!-- أشكال مطابقة للشبكة الهندسية في التصميم -->
+            <div class="img-box img-1"></div>
+            <div class="img-box img-2" style="background-image: url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=300&q=80');"></div>
+            <div class="img-box img-3" style="background-image: url('https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?auto=format&fit=crop&w=300&q=80');"></div>
+            <div class="img-box img-4">
+                <strong style="color: var(--primary-blue); font-size: 1.2rem;">رؤية<br>مستقبلية</strong>
+            </div>
+        </div>
+
+        <div class="about-text">
+            <h2>الانطباع الأول يبدأ بـ <span>ابتسامة</span></h2>
+            <p>هدفي كطبيب أسنان مستقبلي ومطور تقني هو تحسين تجربة المريض بشكل شامل. من خلال دراستي في طب الأسنان، أكتسب المهارات السريرية اللازمة لتقديم أفضل رعاية.</p>
+            <p>ومن خلال إلمامي بتطوير الويب (Front-End) وبناء روبوتات المحادثة، أسعى لتطوير أنظمة عيادات ذكية تسهل الحجوزات وتقدم معلومات طبية موثوقة وميسرة للجميع.</p>
+            <a href="about.html" style="color: var(--primary-blue); text-decoration: none; font-weight: 700;">اقرأ المزيد عن مسيرتي &raquo;</a>
         </div>
     </section>
 
